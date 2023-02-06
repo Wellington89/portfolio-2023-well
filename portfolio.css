@@ -8,7 +8,7 @@ body {
   background: linear-gradient(to right, #387bf8, #75c0e5);
 }
 .texto1{
-color:red;
+color:rgb(8, 8, 8);
 box-sizing: border-box;
 margin: 50px 100px 0px 100px;
 }
@@ -89,8 +89,11 @@ html {
 }
 /*-------------------------Animation hover h1-------------------------*/
 #submit{
-  background: black;
+  background:black;
   color: greenyellow;
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 55px;
 }
 .clock {
 		width: 100%;
@@ -106,76 +109,10 @@ html {
 
 /*-----------------------------------------------*/
 
-/* 12 */
-.btn-light {
-  position: relative;
-  right: 20px;
-  bottom: 20px;
-  border: none;
-  box-shadow: none;
-  width: 130px;
-  height: 40px;
-  line-height: 42px;
-  -webkit-perspective: 230px;
-  perspective: 230px;
-}
-.btn-light span {
-  background: rgb(0, 172, 238);
-  background: linear-gradient(
-    0deg,
-    rgba(0, 172, 238, 1) 0%,
-    rgba(2, 126, 251, 1) 100%
-  );
-  display: block;
-  position: absolute;
-  width: 130px;
-  height: 40px;
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
-    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  margin: 0;
-  text-align: center;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.btn-light span:nth-child(1) {
-  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
-    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
-  -webkit-transform: rotateX(90deg);
-  -moz-transform: rotateX(90deg);
-  transform: rotateX(90deg);
-  -webkit-transform-origin: 50% 50% -20px;
-  -moz-transform-origin: 50% 50% -20px;
-  transform-origin: 50% 50% -20px;
-}
-.btn-light span:nth-child(2) {
-  -webkit-transform: rotateX(0deg);
-  -moz-transform: rotateX(0deg);
-  transform: rotateX(0deg);
-  -webkit-transform-origin: 50% 50% -20px;
-  -moz-transform-origin: 50% 50% -20px;
-  transform-origin: 50% 50% -20px;
-}
-.btn-light:hover span:nth-child(1) {
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
-    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
-  -webkit-transform: rotateX(0deg);
-  -moz-transform: rotateX(0deg);
-  transform: rotateX(0deg);
-}
-.btn-light:hover span:nth-child(2) {
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
-    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
-  color: transparent;
-  -webkit-transform: rotateX(-90deg);
-  -moz-transform: rotateX(-90deg);
-  transform: rotateX(-90deg);
-}
 
-/*-----------------------------------------------*/
+/*----------------------botao--------------------------*/
+
+/*----------------------botao-------------------------*/
 
 .projetos-titulo{
   font-family: 'Kanit', sans-serif;
@@ -185,7 +122,7 @@ margin-left: -80px;
 }
 .projetos-itens{
   list-style: none;
-  color: red;
+  color: rgb(14, 13, 13);
   font-size: 30px;
   text-align: center;
   margin-top: 20px;
