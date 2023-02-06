@@ -176,3 +176,17 @@ html {
 }
 
 /*-----------------------------------------------*/
+
+.projetos-titulo{
+  font-family: 'Kanit', sans-serif;
+text-align: center;
+font-size: 50px;
+margin-left: -80px;
+}
+.projetos-itens{
+  list-style: none;
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
